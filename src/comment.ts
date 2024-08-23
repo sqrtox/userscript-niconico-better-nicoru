@@ -52,7 +52,6 @@ export const fixCommentContentStyle = (commentElement: HTMLElement): void => {
 
   if (contentElement instanceof HTMLElement) {
     contentElement.style.flex = "1";
-    contentElement.style.whiteSpace = "wrap";
   }
 };
 

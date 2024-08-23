@@ -6,7 +6,7 @@ import { type Metadata, stringify } from "userscript-metadata";
 
 const url = pkg.repository.url.replaceAll(/^git\+|\.git$/g, "");
 
-const fileName = pkg.name.replace(/^userscript-/,"");
+const fileName = pkg.name.replace(/^userscript-/, "");
 
 const metadata = {
   name: languageEn.translation["userscript.metadata.name"],
@@ -34,7 +34,14 @@ await build({
     js: `
     ${stringify(metadata)}
 
-    // NOTE: This file was built from ${url}
+    // NOTE:
+    //   This file was built from ${url}
+    //
+    //   このスクリプトはこれらのスクリプトにインスパイアされました。先駆者の方々に感謝と敬意を表します。
+    //   This script was inspired by the following scripts. I express my gratitude and respect to the pioneers.
+    //
+    //      - https://github.com/takusan23/NicoruCountFix
+    //      - https://greasyfork.org/ja/scripts/482598
 
     (async () => {
       "use strict";
