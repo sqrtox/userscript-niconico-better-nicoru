@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema.json",
+  "id": "ja",
+  "name": "日本語",
+  "translation": {
+    "userscript.metadata.description": "ニコニコのニコるが9+までしか表示されないなどの問題を改善します。",
+    "userscript.metadata.name": "ニコニコ - ニコる表示の改善"
+  }
+}

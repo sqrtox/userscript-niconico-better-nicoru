@@ -1,0 +1,37 @@
+{
+  "name": "userscript-niconico-better-nicoru",
+  "version": "1.0.0",
+  "author": "sqrtox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrtox/userscript-niconico-better-nicoru.git"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^22.5.0",
+    "esbuild": "^0.23.1",
+    "escape-string-regexp": "^5.0.0",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4",
+    "userscript-metadata": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sqrtox/userscript-niconico-better-nicoru/issues"
+  },
+  "description": "This is a user script that displays a more accurate number of nicoru.",
+  "homepage": "https://github.com/sqrtox/userscript-niconico-better-nicoru#readme",
+  "keywords": [
+    "nicoru"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "bun run scripts/build.ts && biome format --write dist/*.user.js",
+    "watch": "nodemon"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "esbuild"
+  ],
+  "type": "module"
+}

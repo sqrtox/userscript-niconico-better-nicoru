@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon",
+  "exec": "bun run build",
+  "ext": "ts,tsx",
+  "watch": [
+    "src",
+    "scripts"
+  ]
+}

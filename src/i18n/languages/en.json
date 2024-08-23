@@ -1,0 +1,9 @@
+{
+  "$schema": "../schema.json",
+  "id": "en",
+  "name": "English",
+  "translation": {
+    "userscript.metadata.description": "Improve issues such as Niconico's Nicoru only showing up to 9+.",
+    "userscript.metadata.name": "Niconico - Better Nicoru"
+  }
+}
